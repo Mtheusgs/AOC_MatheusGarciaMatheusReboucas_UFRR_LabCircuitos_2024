@@ -14,7 +14,7 @@
   Este repositório foi criado com o propósito de reunir as resoluções completas da lista de circuitos, a qual também está fixada neste mesmo repositório para fácil acesso. Além disso, o objetivo é fornecer suporte adicional a outros usuários que possam ter dúvidas ou dificuldades relacionadas a esses circuitos, servindo como uma ferramenta de aprendizado e consulta para a comunidade.
 </p>
 
-<h3>🔎 Aplicativo Ultilizado:</h3> 
+<h3>🔎 Software Ultilizado:</h3> 
 
 +<a href="https://sourceforge.net/projects/circuit/">Logisim</a>
 
