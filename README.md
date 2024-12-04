@@ -1,7 +1,5 @@
 <h1 align="center">
-    <a href="https://laravelcollective.com/tools/banner">
-        <img alt="Banner" title="#Banner" style="object-fit: cover; height:250px;" src=".github/readmebanner.png"  />
-    </a>
+    ![Screenshot 2024-12-04 122520](https://github.com/user-attachments/assets/ece747ee-13d6-4d43-a1dc-f742cdbc90e0)
 </h1>
 
 <h1>
