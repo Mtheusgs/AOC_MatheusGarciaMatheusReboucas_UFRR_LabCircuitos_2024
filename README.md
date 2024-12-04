@@ -1,7 +1,4 @@
-<h1 align="center">
-    ![header](https://github.com/user-attachments/assets/5a06ad81-b282-42a8-b1fa-ba5198c90946)
-</h1>
-
+<h1>![header](https://github.com/user-attachments/assets/5a06ad81-b282-42a8-b1fa-ba5198c90946)</h1>
 <h1>
   Lista Avaliativa de Circuitos 
 </h1>
