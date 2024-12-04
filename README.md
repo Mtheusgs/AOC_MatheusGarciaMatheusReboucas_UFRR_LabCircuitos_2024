@@ -5,7 +5,7 @@
   Lista Avaliativa de Circuitos 
 </h1>
 <h2>
-  Arquitetura e Organizaçõa de Computadores
+  Arquitetura e Organização de Computadores
 </h2>
 
 <p><h3>
