@@ -19,5 +19,5 @@
 
 ## 🔎 Aplicativo Ultilizado:
 
--<a href="https://sourceforge.net/projects/circuit/">Logisim<
++<a href="https://sourceforge.net/projects/circuit/">Logisim</a>
 
