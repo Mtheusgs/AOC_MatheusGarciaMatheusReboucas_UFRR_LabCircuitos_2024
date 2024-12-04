@@ -1,5 +1,5 @@
 
-![Screenshot 2024-12-04 130818](https://github.com/user-attachments/assets/bb2a5c76-b245-4c4b-ae61-166b65274ab6)
+![Screenshot 2024-12-04 130921](https://github.com/user-attachments/assets/301dac75-6134-4ce3-b56b-8f486a239e9d)
 
 <h1>
   Lista Avaliativa de Circuitos 
