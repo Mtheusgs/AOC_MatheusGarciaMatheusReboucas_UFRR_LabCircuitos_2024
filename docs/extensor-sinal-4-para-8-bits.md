@@ -32,7 +32,7 @@ O Extensor de Sinal é um componente que expande um número de 4 bits para 8 bit
      - Os bits de entrada são copiados diretamente para os LSBs da saída.
 
 2. **Imagem do Circuito**:
-   ![Extensor de Sinal](../images/extensor_sinal_4_to_8.png)
+   - ![Extensor de Sinal](../images/extensor_sinal_4_to_8.png)
 
 ---
 
