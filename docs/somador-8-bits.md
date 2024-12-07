@@ -33,4 +33,4 @@ Explique os resultados obtidos e compare-os com o esperado. Adicione observaçõ
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/nome-do-arquivo.circ)
+- [Arquivo do Logisim Evolution](../src/somador-8-bits.circ)
