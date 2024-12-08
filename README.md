@@ -21,67 +21,67 @@ Cada componente da lista foi implementado utilizando o **Logisim** ou **Logisim 
 
 #### 📝 Exercícios Resolvidos:
 
-1. **Registrador Flip-Flop**:
+1. **[Registrador Flip-Flop](./docs/registrador-flip-flop.md)**:
 
    - Tipo D e tipo JK.
 
-2. **Multiplexador**:
+2. **[Multiplexador](./docs/multiplexador-4-entradas.md)**:
 
    - Multiplexador de quatro opções de entrada.
 
-3. **Porta XOR**:
+3. **[Porta XOR](./docs/porta-xor-and-not-or.md)**:
 
    - Construída utilizando as portas AND, NOT e OR.
 
-4. **Somador de 8 bits**:
+4. **[Somador de 8 bits](./docs/somador-8-bits-mais-4.md)**:
 
    - Soma um valor inteiro com 4.
 
-5. **Memória ROM**:
+5. **[Memória ROM](./docs/memoria-rom-8-bits.md)**:
 
    - Memória de 8 bits.
 
-6. **Memória RAM**:
+6. **[Memória RAM](./docs/memoria-ram-8-bits.md)**:
 
    - Memória de 8 bits.
 
-7. **Banco de Registradores**:
+7. **[Banco de Registradores](./docs/banco-de-registradores.md)**:
 
    - Banco de registradores de 8 bits.
 
-8. **Somador de 8 bits**.
+8. **[Somador de 8 bits](./docs/somador-8-bits.md)**.
 
-9. **Detector de Sequência Binária**:
+9. **[Detector de Sequência Binária](./docs/detector-sequencia-binaria-101.md)**:
 
    - Identifica a sequência "101" em um fluxo de entrada.
 
-10. **ULA de 8 bits**:
+10. **[ULA de 8 bits](./docs/ula-8-bits.md)**:
 
     - Operações: AND, OR, NOT, NOR, NAND, XOR, SHIFT para esquerda e direita (2 bits), soma e subtração.
 
-11. **Extensor de Sinal**:
+11. **[Extensor de Sinal](./docs/extensor-sinal-4-para-8-bits.md)**:
 
     - Extensão de 4 bits para 8 bits.
 
-12. **Máquina de Estados**:
+12. **[Máquina de Estados](./docs/maquina-de-estados.md)**:
 
     - Implementada utilizando portas lógicas.
 
-13. **Contador Síncrono**.
+13. **[Contador Síncrono](./docs/contador-sincrono.md)**.
 
-14. **Detector de Paridade Ímpar**:
+14. **[Detector de Paridade Ímpar](./docs/detector-paridade-impar.md)**:
 
     - Detecta número ímpar de 1s usando portas AND, OR e NOT.
 
-15. **Otimização Lógica**:
+15. **[Otimização Lógica](./docs/otimizacao-logica-karnaugh.md)**:
 
     - Resolvido com mapas de Karnaugh e circuito otimizado.
 
-16. **Decodificador de 7 Segmentos**:
+16. **[Decodificador de 7 Segmentos](./docs/decodificador-7-segmentos.md)**:
 
     - Converte número binário de 4 bits para sinais de display de 7 segmentos.
 
-17. **Detector de Número Primo**:
+17. **[Detector de Número Primo](./docs/detector-numeros-primos.md)**:
     - Detecta números primos em entradas binárias de 4 bits.
 
 ---
