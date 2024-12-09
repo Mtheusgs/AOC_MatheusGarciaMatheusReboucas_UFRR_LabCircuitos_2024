@@ -85,7 +85,8 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 
 2. **Resultados dos Testes**:
-   https://github.com/user-attachments/assets/2fc4cb09-a58e-4b0e-8469-b1bf81dd3f36
+
+   https://github.com/user-attachments/assets/3b5757bb-f3d2-4d93-9309-c0aa10f5cd0f
 
 ## 📈 Análise
 
@@ -93,4 +94,4 @@ Dessa forma, ultilizando essa documentação podemos criar não só o multiplexa
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/nome-do-arquivo.circ)
+- [Arquivo do Logisim Evolution](../src/Multiplexador.circ)
