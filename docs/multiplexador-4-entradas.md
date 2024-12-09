@@ -6,7 +6,16 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 ## 🖥️ Componentes
 
-Lista dos principais componentes usados no circuito (e.g., flip-flops, portas lógicas).
+- **4 pin de um bit**:
+  - 4 inputs, cada um representa um sinal distinto.
+- **Portas Lógicas (AND e OR)**:
+  - Configuradas para selecionar apenas uma passagem, assim apenas um sinal chega no output.
+- **Multiplexador 2x1**:
+  - Multiplexador para facilitar o processo de criação.
+- **2 Pin de um bit (seletor)**:
+  - Pins ultilizados para escolher a saída.  
+- **Pin um bit (data)**:
+  - Saída correspondente ao sinal escolhido pelo seletor.
 
 ## ⚙️ Implementação
 
