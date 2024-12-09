@@ -90,7 +90,7 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 ## 📈 Análise
 
-Dessa forma, ultilizando essa documentação podemos criar não só o multiplexador 4x1, mas qualquer um de nossa necessidade. E lembrando que seu pricipal objetivo é a passagem de apenas um input.
+Dessa forma, ultilizando essa documentação podemos criar não só o multiplexador 4x1, mas qualquer um de nossa necessidade. E lembrando que seu principal objetivo é a passagem de apenas um input.
 
 ## 📂 Arquivos Relacionados
 
