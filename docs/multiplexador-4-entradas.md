@@ -4,7 +4,7 @@
 
 Dispositivo eletrônico que permite selecionar uma de várias entradas e direcioná-la para uma única saída. Ele funciona como um interruptor digital que escolhe uma das várias opções de entrada de acordo com um sinal de controle. Assim, é uma ferramenta essencial para a transmissão e manipulação eficiente de múltiplos sinais, melhorando o desempenho e reduzindo a quantidade de recursos necessários em muitos sistemas eletrônicos.
 
-![Captura de tela 2024-12-09 104958](https://github.com/user-attachments/assets/a9cbb993-efe3-4f55-8b70-443f7e6b5b6a)
+![Captura de tela 2024-12-09 104958](https://github.com/user-attachments/assets/63eeaa80-340b-45ff-9255-cd499b0e6380)
 
 ## 🖥️ Componentes
 
