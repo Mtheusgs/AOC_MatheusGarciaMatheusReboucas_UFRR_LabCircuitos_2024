@@ -96,7 +96,6 @@ A lista original de exercícios pode ser acessada diretamente aqui:
 
 ### 💻 Software Ultilizado:</h3>
 
-- [Logisim](https://sourceforge.net/projects/circuit/)
 - [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)
 
 ---
@@ -118,5 +117,5 @@ A lista original de exercícios pode ser acessada diretamente aqui:
    git clone https://github.com/username/repository.git
    cd repository
    ```
-2. Abra os arquivos .circ no Logisim (Questões Pares) ou Logisim Evolution (Questões Ímpares) para simular os circuitos.
+2. Abra os arquivos .circ no Logisim Evolution para simular os circuitos.
 3. Consulte os relatórios em `/docs` para uma descrição detalhada e análise dos testes realizados.
