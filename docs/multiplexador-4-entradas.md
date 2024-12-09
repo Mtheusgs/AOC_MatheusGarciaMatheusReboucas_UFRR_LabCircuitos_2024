@@ -65,15 +65,31 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 ## 🔬 Testes
 
 1. **Método de Teste**:
+  - Sabendo dos seguintes casos onde temols saída igual a 1. No qual podemos ver na tabela verdade :
 
-   - Descreva como os testes foram realizados (e.g., análise da tabela verdade, simulações).
+    | S1 | S0 | A | B | C | D | saida |
+    |----|----|----|----|----|----|---|
+    |  0 |  0 |  0 |  X |  X |  X | 0 |
+    |  0 |  0 |  1 |  X |  X |  X | 1 |
+    |  0 |  1 |  X |  0 |  X |  X | 0 |
+    |  0 |  1 |  X |  1 |  X |  X | 1 |
+    |  1 |  0 |  X |  X |  0 |  X | 0 |
+    |  1 |  0 |  X |  X |  1 |  X | 1 |
+    |  1 |  1 |  X |  X |  X |  0 | 0 |
+    |  1 |  1 |  X |  X |  X |  1 | 1 |
+
+  -Assim chegando a seguinque equação:
+    Saida = (¬S1 · ¬S0 · A) + (¬S1 · S0 · B) + (S1 · ¬S0 · C) + (S1 · S0 · D)
+
+
+
 
 2. **Resultados dos Testes**:
-   - Inclua tabelas ou gráficos com os resultados.
+   https://github.com/user-attachments/assets/2fc4cb09-a58e-4b0e-8469-b1bf81dd3f36
 
 ## 📈 Análise
 
-Explique os resultados obtidos e compare-os com o esperado. Adicione observações ou problemas encontrados.
+Dessa forma, ultilizando essa documentação podemos criar não só o multiplexador 4x1, mas qualquer um de nossa necessidade. E lembrando que seu pricipal objetivo é a passagem de apenas um input.
 
 ## 📂 Arquivos Relacionados
 
