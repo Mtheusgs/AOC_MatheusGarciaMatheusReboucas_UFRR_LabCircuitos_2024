@@ -1,12 +1,22 @@
-# [Exercise Title]
+# Somador 8 bits
 
 ## 🔍 Descrição
 
-Uma breve descrição do objetivo do exercício, incluindo o que é esperado do circuito.
+circuito combinacional utilizado para somar dois números binários de 8 bits, gerando uma soma e, opcionalmente, um bit de transporte de saída (carry-out).
 
 ## 🖥️ Componentes
 
-Lista dos principais componentes usados no circuito (e.g., flip-flops, portas lógicas).
+-Pins
+
+   Ultilização de pins para entrada do número binário e saida de resultados, assim como carry out e carry in 
+   
+-Portas lógicas
+
+   Ultilização de portas NAD,XOR E OR para conseguirmos o resultado esperado
+   
+-Componentes menores
+
+   ultilização de somadores de menos bit para a implementação do de 8 bits
 
 ## ⚙️ Implementação
 
