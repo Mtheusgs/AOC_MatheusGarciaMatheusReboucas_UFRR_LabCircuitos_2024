@@ -55,7 +55,7 @@ Cada componente da lista foi implementado utilizando o **Logisim** ou **Logisim 
 
 10. **[Detector de Sequência Binária](./docs/detector-sequencia-binaria-101.md)**:
 
-   - Identifica a sequência "101" em um fluxo de entrada.
+    - Identifica a sequência "101" em um fluxo de entrada.
 
 11. **[ULA de 8 bits](./docs/ula-8-bits.md)**:
 
