@@ -81,7 +81,7 @@ Os principais componentes usados no circuito incluem:
 
 O circuito produziu os resultados esperados em todas as combinações de entrada, confirmando que a lógica do detector de paridade ímpar foi implementada corretamente. 
 
-https://github.com/user-attachments/assets/453c451b-7595-4268-b145-692237284175
+https://github.com/user-attachments/assets/d84326f6-385e-4f07-9313-7314fd05fada
 
 
 ### Observações:
