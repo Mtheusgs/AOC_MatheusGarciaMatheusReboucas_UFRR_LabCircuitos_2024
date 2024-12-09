@@ -23,7 +23,7 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 1. **Descrição do Circuito**:
 
-   - O circuito ultiliza multiplexador 2x1 (composto por portas AND e OR) para selecionar uma saída, também possivel implementar apenas com as portas lógicas.
+   - O circuito ultiliza multiplexador 2x1 (composto por portas AND e OR) para selecionar uma saída. O circuito também pode ser implementado apenas com as portas lógicas.
    - Começando com os inputs (os sinais que vamos passar), teremos 4 sinais de entrada e apenas 1 saída. Usando o seletor, podemos escolher qual entrada será direcionada para a saída, de acordo com as possibilidades descritas na tabela. Como temos 4 entradas, precisamos de 2 bits para representar essas 4 opções, pois com 2 bits conseguimos contar de 0 a 3, o que nos dá um total de 4 possibilidades de seleção.
   
    - **Tabela Exemplo** 
@@ -37,13 +37,30 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 2. **Imagem do Circuito**:
    
-   **Multiplexador 4x1 completo Logisim Evolution:**
-     - Ultilizando 2x1.
+   **Multiplexador 4x1 completo Logisim Evolution: Ultilizando 2x1.**
+       ![Screenshot 2024-12-09 144904](https://github.com/user-attachments/assets/ca39a950-cd25-4f4c-bb54-f3abcb1b597e)
    
-    **Multiplexador 4x1 completo Logisim Evolution:**
-     - Apenas portas lógicas.
+   O multiplexador 2x1 é essencial para criação desse circuito, podemos perceber que quando seletor é igual a 0 
+   e adicionando  1 ao input A, temos a passagem da porta AND é garantida, e ao mesmo tempo o 0 do seletor bloqueia a passagem de B na segunda porta AND.
        
-    **Por dentro do componente:**
+   Assim chegando ao **multiplexador 4x1 ultilizando 2x1**:
+       
+   ![Screenshot 2024-12-09 145401](https://github.com/user-attachments/assets/73006508-0138-40ef-b250-25f905ce2a22) 
+
+   Seguindo a lógica do multiplexador 2x1, aqui temos o seletor escolhendo a primeira ou segunda entrada do multiplexador, o segundo seletor vai escolher qual multiplexador está ativado. Por exemplo, se temos     
+   seletor 2 igual a 0 modificamos A e B com o seletor 1, e assim podemos seguir com qualquer multiplexador, o bit mais a esquerda escolhe o multiplexador, e os da direita seleciona as entradas dentro do 
+   multiplexador.
+   
+   Como por exemplo o multiplexador 8x1:
+      
+    ![Screenshot 2024-12-09 150402](https://github.com/user-attachments/assets/97229a49-df84-43b4-8bb5-4be6a4c09ef1)
+
+    **Multiplexador 4x1 completo Logisim Evolution: Apenas com portas lógicas**
+
+     ![Screenshot 2024-12-09 150840](https://github.com/user-attachments/assets/c2903fd1-ac8f-41eb-ac34-d94b2fce279b)
+
+     Em relação a construção desse circuitos temos que respeita duas coisas, a contagem do seletor (00,01,10,11) e a passagem das portas A, B, C e D. Lembrando que se A estiver passando, as demais não sevem passar. Então atenção priciplamente nas portas NOT na entrada nas portas AND.
+---
 
 ## 🔬 Testes
 
