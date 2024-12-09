@@ -77,4 +77,4 @@ Resultado foi como esperado, a lógica da imagem onde vemos as entradas que ativ
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/Decodificador7segmentos.circ)
+- [Arquivo do Logisim Evolution](../src/Decodificador7segmentos.circ)
