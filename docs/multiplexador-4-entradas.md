@@ -1,8 +1,8 @@
-# [Exercise Title]
+# Multiplexador 4x1
 
 ## 🔍 Descrição
 
-Uma breve descrição do objetivo do exercício, incluindo o que é esperado do circuito.
+Dispositivo eletrônico que permite selecionar uma de várias entradas e direcioná-la para uma única saída. Ele funciona como um interruptor digital que escolhe uma das várias opções de entrada de acordo com um sinal de controle. Assim, é uma ferramenta essencial para a transmissão e manipulação eficiente de múltiplos sinais, melhorando o desempenho e reduzindo a quantidade de recursos necessários em muitos sistemas eletrônicos.
 
 ## 🖥️ Componentes
 
