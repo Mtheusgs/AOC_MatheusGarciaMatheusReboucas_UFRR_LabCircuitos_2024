@@ -6,17 +6,17 @@ circuito combinacional utilizado para somar dois números binários de 8 bits, g
 
 ## 🖥️ Componentes
 
--Pins
+-**Pins**
 
-   Ultilização de pins para entrada do número binário e saida de resultados, assim como carry out e carry in 
+   -Ultilização de pins para entrada do número binário e saida de resultados, assim como carry out e carry in 
    
--Portas lógicas
+-**Portas lógicas**
 
-   Ultilização de portas NAD,XOR E OR para conseguirmos o resultado esperado
+   -Ultilização de portas NAD,XOR E OR para conseguirmos o resultado esperado
    
--Componentes menores
+-**Componentes menores**
 
-   ultilização de somadores de menos bit para a implementação do de 8 bits
+   -ultilização de somadores de menos bit para a implementação do de 8 bits
 
 ## ⚙️ Implementação
 
