@@ -21,8 +21,17 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 1. **Descrição do Circuito**:
 
-   - Detalhe os pinos de entrada e saída.
-   - Explique a lógica implementada.
+   - O circuito ultiliza multiplexador 2x1 (composto por portas AND e OR) para selecionar uma saída, também possivel implementar apenas com as portas lógicas.
+   - Começando com os inputs (os sinais que vamos passar), teremos 4 sinais de entrada e apenas 1 saída. Usando o seletor, podemos escolher qual entrada será direcionada para a saída, de acordo com as possibilidades descritas na tabela. Como temos 4 entradas, precisamos de 2 bits para representar essas 4 opções, pois com 2 bits conseguimos contar de 0 a 3, o que nos dá um total de 4 possibilidades de seleção.
+  
+    **Tabela Exemplo** 
+     | Entradas | seletor |Saida| 
+     |----------|---------|-----|
+     | _Input0_ |  `00`   |_Input0_|
+     | _Input1_ |  `01`   |_Input1_|
+     | _Input2_ |  `10`   | _Input2_ |
+     | _Input3_ |  `11`   |_Input3_|
+     
 
 2. **Imagem do Circuito**:
    - Inclua uma captura de tela ou diagrama do circuito implementado no Logisim.
