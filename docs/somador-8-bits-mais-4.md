@@ -94,8 +94,8 @@ Circuito combinacional utilizado para somar dois números um inteiro e 4 (100 em
 
 Os resultados estão alinhados com o esperado, baseando-se na lógica projetada.
 
--Exemplo de comportamento esperado:
-  input= 14 (1100) + 0100 = 10010 (18 decimal)
+- Exemplo de comportamento esperado:
+   input= 14 (1100) + 0100 = 10010 (18 decimal)
 
 ## 📂 Arquivos Relacionados
 
