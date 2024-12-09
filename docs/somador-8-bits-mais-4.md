@@ -99,4 +99,4 @@ Os resultados estão alinhados com o esperado, baseando-se na lógica projetada.
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim Evolution](../src/Somador8bitplus4.circ)
+- [Arquivo do Logisim Evolution](../src/Somador8bitsplus4.circ)
