@@ -72,7 +72,7 @@ circuito combinacional utilizado para somar dois números binários de 8 bits, g
    
 3. **Resultados dos Testes**:
    
-   https://github.com/user-attachments/assets/adc37d98-dbdd-4642-b036-20616db87960.
+https://github.com/user-attachments/assets/adc37d98-dbdd-4642-b036-20616db87960.
 
 ## 📈 Análise
 
