@@ -39,7 +39,7 @@ Circuito combinacional utilizado para somar dois números binários de 8 bits, g
    
     ![Screenshot 2024-12-09 155440](https://github.com/user-attachments/assets/469bd7f1-ce93-4bf0-a754-3bc4483ee2b8)
 
-   **Somador bit a bit**: Para enteder a soma de 8 bits vamos ver primeiro a soma de 1 bit< o circuito é dividido e duas partes. A primeira responsável por fazer a soma, já a segunda responsável pelo carry out, ou    seja o bit que vai passar pra próxima soma. Lembrando que temos o cin ou carry in que seria o 1 que foi passado chegando nessa soma, mas como é apenas soma de um bit
+   **Somador bit a bit**: Para enteder a soma de 8 bits vamos ver primeiro a soma de 1 bit, o circuito é dividido e duas partes. A primeira responsável por fazer a soma, já a segunda responsável pelo carry out, ou    seja o bit que vai passar pra próxima soma. Lembrando que temos o cin ou carry in que seria o 1 que foi passado chegando nessa soma, mas como é apenas soma de um bit
    ele só será necessário pra quando aprimorarmos o circuito, a gente ter acesso a ele, caso contrário podemos apenas aterrar.
    
     ![Screenshot 2024-12-09 155447](https://github.com/user-attachments/assets/3ff0f315-3aaf-4f82-ab9b-c6b55240df9a)
