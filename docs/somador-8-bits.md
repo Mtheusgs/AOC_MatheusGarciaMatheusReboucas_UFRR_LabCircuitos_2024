@@ -2,7 +2,7 @@
 
 ## 🔍 Descrição
 
-circuito combinacional utilizado para somar dois números binários de 8 bits, gerando uma soma e, opcionalmente, um bit de transporte de saída (carry-out).
+Circuito combinacional utilizado para somar dois números binários de 8 bits, gerando uma soma e, opcionalmente, um bit de transporte de saída (carry-out).
 
 ## 🖥️ Componentes
 
