@@ -51,37 +51,39 @@ Cada componente da lista foi implementado utilizando o **Logisim** ou **Logisim 
 
 8. **[Somador de 8 bits](./docs/somador-8-bits.md)**.
 
-9. **[Detector de Sequência Binária](./docs/detector-sequencia-binaria-101.md)**:
+   - Realiza a soma de números binários de 8 bits
+
+10. **[Detector de Sequência Binária](./docs/detector-sequencia-binaria-101.md)**:
 
    - Identifica a sequência "101" em um fluxo de entrada.
 
-10. **[ULA de 8 bits](./docs/ula-8-bits.md)**:
+11. **[ULA de 8 bits](./docs/ula-8-bits.md)**:
 
     - Operações: AND, OR, NOT, NOR, NAND, XOR, SHIFT para esquerda e direita (2 bits), soma e subtração.
 
-11. **[Extensor de Sinal](./docs/extensor-sinal-4-para-8-bits.md)**:
+12. **[Extensor de Sinal](./docs/extensor-sinal-4-para-8-bits.md)**:
 
     - Extensão de 4 bits para 8 bits.
 
-12. **[Máquina de Estados](./docs/maquina-de-estados.md)**:
+13. **[Máquina de Estados](./docs/maquina-de-estados.md)**:
 
     - Implementada utilizando portas lógicas.
 
-13. **[Contador Síncrono](./docs/contador-sincrono.md)**.
+14. **[Contador Síncrono](./docs/contador-sincrono.md)**.
 
-14. **[Detector de Paridade Ímpar](./docs/detector-paridade-impar.md)**:
+15. **[Detector de Paridade Ímpar](./docs/detector-paridade-impar.md)**:
 
     - Detecta número ímpar de 1s usando portas AND, OR e NOT.
 
-15. **[Otimização Lógica](./docs/otimizacao-logica-karnaugh.md)**:
+16. **[Otimização Lógica](./docs/otimizacao-logica-karnaugh.md)**:
 
     - Resolvido com mapas de Karnaugh e circuito otimizado.
 
-16. **[Decodificador de 7 Segmentos](./docs/decodificador-7-segmentos.md)**:
+17. **[Decodificador de 7 Segmentos](./docs/decodificador-7-segmentos.md)**:
 
     - Converte número binário de 4 bits para sinais de display de 7 segmentos.
 
-17. **[Detector de Número Primo](./docs/detector-numeros-primos.md)**:
+18. **[Detector de Número Primo](./docs/detector-numeros-primos.md)**:
     - Detecta números primos em entradas binárias de 4 bits.
 
 ---
