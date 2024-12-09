@@ -35,7 +35,13 @@ Dispositivo eletrônico que permite selecionar uma de várias entradas e direcio
 
 2. **Imagem do Circuito**:
    
-     **Multiplexador 4x1 completo Logisim Evolution.**
+   **Multiplexador 4x1 completo Logisim Evolution:**
+     - Ultilizando 2x1.
+   
+    **Multiplexador 4x1 completo Logisim Evolution:**
+     - Apenas portas lógicas.
+       
+    **Por dentro do componente:**
 
 ## 🔬 Testes
 
