@@ -92,4 +92,4 @@ https://github.com/user-attachments/assets/d84326f6-385e-4f07-9313-7314fd05fada
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/detector_paridade_impar.circ)
+- [Arquivo do Logisim](../src/Detector_impar.circ)
