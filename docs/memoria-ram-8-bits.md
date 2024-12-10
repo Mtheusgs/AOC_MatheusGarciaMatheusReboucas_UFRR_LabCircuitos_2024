@@ -97,4 +97,4 @@ Os principais componentes utilizados incluem:
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/MemoriaRam.circ)
+- [Arquivo do Logisim Evolution](../src/MemoriaRam.circ)
