@@ -28,8 +28,41 @@ Os principais componentes utilizados no circuito incluem:
 
 ### 1. **Descrição do Circuito**
 
+### **Passo a Passo do Funcionamento**
+
+1. **Cálculo das Operações**:
+   - Os blocos de lógica e aritmética calculam os resultados para todas as operações ao mesmo tempo:
+     - AND, OR, NOT, XOR, NAND, NOR.
+     - Operações aritméticas (\( A + B \), \( A - B \)).
+     - Operações de deslocamento (\( A << 2 \), \( A >> 2 \)).
+
+2. **Seleção da Operação**:
+   - O código de controle feito pelo, que escolhe qual dos resultados será direcionado para a saída .
+
+
+3. **Entrega do Resultado**:
+   - Após a seleção, a saída \( R[7:0] \) é enviada para os próximos estágios do sistema, como memória ou registros.
+
    
 ### 2. **Imagem do Circuito**
+
+  ![Screenshot 2024-12-09 194927](https://github.com/user-attachments/assets/9112e60f-0b5b-46b4-bd5f-e690eaca33e0)
+
+  Operações com apenas portas, foi ultilizada elas mesmos e adcionado um multiplecador pra aplicar o choice no qual é ativo quando escolhemos tal operação.
+
+  -Seletor/decoder 
+
+  ![Screenshot 2024-12-09 195002](https://github.com/user-attachments/assets/372c1cf6-fe4b-42a2-b6cb-27f01911f051) 
+
+  Ultilizado para selecionar a operação que vai ser realizada.
+
+  Operações restantes (soma, subtrator, e shift) 
+
+   - Somador
+        Temos mais informações do seu funcionamento em [Arquivo do Logisim Evolution](../docs/somador-8-bits.md) 
+   
+   ![Screenshot 2024-12-09 201041](https://github.com/user-attachments/assets/5387cbb0-df01-4989-9930-83417d7fea83)
+  
 
    
 
