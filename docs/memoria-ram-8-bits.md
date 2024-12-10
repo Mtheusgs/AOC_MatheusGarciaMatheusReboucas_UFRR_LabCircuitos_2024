@@ -15,18 +15,11 @@ Este exercício é fundamental para compreender como as memórias funcionam em s
 ## 🖥️ Componentes
 
 Os principais componentes utilizados incluem:
-- **Flip-Flops (D ou SR)**: Para armazenar os bits de cada endereço.
-- **Decodificador**: Para selecionar o endereço durante as operações de leitura/escrita.
+- **Registradores**: Para armazenar os bits de cada endereço. Criação disponicel nesse repositório [Arquivo logisim Evolution](../docs/banco-de-regsitradores.md)
+- **seletor**: Para selecionar o registrador.
 - **Multiplexadores/Demultiplexadores**: Para gerenciar os dados entre os endereços.
-- **Entradas/Saídas**:
-  - Entradas:
-    - \( D[7:0] \): Dados de 8 bits a serem armazenados.
-    - \( Addr[2:0] \): Endereço de 3 bits para acessar as palavras.
-    - \( WE \): Sinal de escrita (Write Enable).
-    - \( RE \): Sinal de leitura (Read Enable).
-  - Saídas:
-    - \( Q[7:0] \): Dados lidos do endereço especificado.
-
+- **Entradas/Saídas**: 8 bits
+  
 ---
 
 ## ⚙️ Implementação
@@ -35,19 +28,20 @@ Os principais componentes utilizados incluem:
 
 - **Entradas**:
   - \( D[7:0] \): Dados de entrada (8 bits).
-  - \( Addr[2:0] \): Endereço de 3 bits (permite selecionar até 8 endereços).
-  - \( WE \): Sinal que habilita a escrita nos flip-flops.
-  - \( RE \): Sinal que habilita a leitura dos flip-flops.
+  - \( selector \):permite selecionar um dos 8 registradores.
+  - \( ReadWhite \): Sinal que habilita a escrita ou leitura.
+  
 - **Saídas**:
   - \( Q[7:0] \): Dados de saída (8 bits), correspondentes ao endereço lido.
+  - 
 - **Lógica**:
-  - O endereço fornecido (\( Addr \)) é decodificado, ativando o banco de flip-flops correspondente.
-  - Quando \( WE = 1 \), os dados na entrada (\( D[7:0] \)) são armazenados no endereço selecionado.
-  - Quando \( RE = 1 \), os dados armazenados no endereço especificado são enviados para a saída (\( Q[7:0] \)).
+  - O endereço fornecido é decodificado, ativando o o registrador correspondente.
+  - Quando \( ReadWhite = 1 \), os dados na entrada (\( D[7:0] \)) são armazenados no endereço selecionado.
+  - Quando \( ReadWhite = 0 \), os dados armazenados no endereço especificado são enviados para a saída (\( Q[7:0] \)).
 
 ### 2. **Imagem do Circuito**
 
-![Circuito da Memória RAM de 8 Bits](../assets/ram_8bits.png)
+![Screenshot 2024-12-09 205308](https://github.com/user-attachments/assets/fd579eb5-2f30-427b-a8e7-2faa68413e28)
 
 ---
 
@@ -58,20 +52,19 @@ Os principais componentes utilizados incluem:
 - O circuito foi testado para verificar o armazenamento e recuperação de dados:
   - Escrever valores em cada endereço.
   - Ler os valores armazenados e compará-los com o esperado.
-- Testes foram realizados no Logisim com diferentes combinações de \( Addr, WE, RE \).
 
 ### 2. **Resultados dos Testes**
 
-| \( Addr[2:0] \) | \( D[7:0] \) Escrito | \( Q[7:0] \) Lido | \( WE \) | \( RE \) |
+| \( Seletor[2:0] \) | \( D[7:0] \) Escrito | \( Q[7:0] \) Lido | \( ReadWhite \) | \( ReadWhite \) |
 |-----------------|----------------------|-------------------|----------|----------|
-| 000             | 10101010            | 10101010          | 1        | 1        |
-| 001             | 11001100            | 11001100          | 1        | 1        |
-| 010             | 11110000            | 11110000          | 1        | 1        |
-| 011             | 00001111            | 00001111          | 1        | 1        |
-| 100             | 01010101            | 01010101          | 1        | 1        |
-| 101             | 10011001            | 10011001          | 1        | 1        |
-| 110             | 00111100            | 00111100          | 1        | 1        |
-| 111             | 00000000            | 00000000          | 1        | 1        |
+| 000             | 10101010            | 10101010          | 0        | 1        |
+| 001             | 11001100            | 11001100          | 0       | 1       |
+| 010             | 11110000            | 11110000          | 0        | 1       |
+| 011             | 00001111            | 00001111          | 0        | 1        |
+| 100             | 01010101            | 01010101          | 0       | 1        |
+| 101             | 10011001            | 10011001          | 0        | 1        |
+| 110             | 00111100            | 00111100          | 0        | 1        |
+| 111             | 00000000            | 00000000          | 0        | 1        |
 
 ---
 
@@ -80,18 +73,17 @@ Os principais componentes utilizados incluem:
 ### Resultados Obtidos
 
 - A memória RAM funcionou corretamente:
-  - Os dados foram armazenados nos endereços especificados quando \( WE = 1 \).
-  - Os dados foram recuperados corretamente quando \( RE = 1 \).
-- O circuito respondeu de forma precisa às combinações de sinais \( WE \) e \( RE \).
+  - Os dados foram armazenados nos endereços especificados quando \( ReadWrite = 0 \).
+  - Os dados foram recuperados corretamente quando \( ReadWrite = 0 \).
 
 ### Observações
 
 1. **Sincronização**:
    - O circuito deve ser sincronizado com um clock, especialmente em sistemas maiores.
 2. **Expansibilidade**:
-   - O projeto pode ser ampliado para maior capacidade (e.g., 16 ou 32 palavras) ajustando o número de endereços e flip-flops.
+   - O projeto pode ser ampliado para maior capacidade (e.g., 16 ou 32 palavras)
 3. **Problemas Encontrados**:
-   - Nenhum problema foi identificado durante os testes no Logisim.
+   - Nenhum problema foi identificado durante os testes no Logisim Evolution.
 
 ---
 
