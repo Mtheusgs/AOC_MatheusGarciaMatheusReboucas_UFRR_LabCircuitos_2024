@@ -61,7 +61,21 @@ Os principais componentes utilizados no circuito incluem:
    - Somador
         Temos mais informações do seu funcionamento em [Arquivo do Logisim Evolution](../docs/somador-8-bits.md) 
    
-   ![Screenshot 2024-12-09 201041](https://github.com/user-attachments/assets/5387cbb0-df01-4989-9930-83417d7fea83)
+   ![Screenshot 2024-12-09 201041](https://github.com/user-attachments/assets/5387cbb0-df01-4989-9930-83417d7fea83) 
+
+   - Shift E e Shift D (respectivamente)
+
+  ![Screenshot 2024-12-09 201510](https://github.com/user-attachments/assets/d7319639-e068-499d-9402-8cb654782cc7)
+
+  ![Screenshot 2024-12-09 201554](https://github.com/user-attachments/assets/ebfc4df9-1f49-470e-bb8c-4e6053de779e)
+
+  Para realização de shift de dois a esquerda ou a direita ultizamos no componente final um shift da imagem ligada a cima em outro shift.
+
+  - Subtrator
+      ![Screenshot 2024-12-09 201906](https://github.com/user-attachments/assets/88bb884a-45e2-48b3-982a-4a66f0be1775)
+
+  Subtrator ultiliza a soma pelo complemento de dois, ou seja, fazemos da seguite forma, trsnformamos o input no inverso, somamos com um e posteriormente com o outro input, como podemos ver na imagem.
+    
   
 
    
@@ -69,6 +83,8 @@ Os principais componentes utilizados no circuito incluem:
 ---
 
 ## 🔬 Testes
+
+https://github.com/user-attachments/assets/33aef2d9-4158-4b6c-bc40-ad9dda57bda5
 
 ### 1. **Método de Teste**
 
