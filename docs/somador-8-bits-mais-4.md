@@ -47,7 +47,7 @@ Circuito combinacional utilizado para somar dois números um inteiro e 4 (100 em
 
    Seguindo a lógica do circuito somador, proposto aqui mesmo nesse repositório:
    
-   - [Arquivo do Logisim Evolution](../src/somador-8-bits.md)
+   - [Arquivo do Logisim Evolution](../docs/somador-8-bits.md)
 
      Onde temos a ultilização de portas XOR para calcular soma de bits, além do carry out e carry in para passagem de soma estourada, uma mudança para o somador normal é que no somador de 4 bits da direita, temos ele automaticamente somando os bits do input com quatro, ultilizando constantes.
 
