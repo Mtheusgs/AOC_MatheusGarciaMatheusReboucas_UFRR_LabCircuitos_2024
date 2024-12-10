@@ -97,4 +97,4 @@ Os principais componentes utilizados no circuito incluem:
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim](../src/maquinaEstado.circ)
+- [Arquivo do Logisim Versão Básica](../src/maquinaEstado.circ)
