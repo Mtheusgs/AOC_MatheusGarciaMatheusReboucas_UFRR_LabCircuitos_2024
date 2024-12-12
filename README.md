@@ -119,7 +119,7 @@ A lista original de exercícios pode ser acessada diretamente aqui:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Mtheusgs/AOC_MatheusGarciaMatheusReboucas_UFRR_LabCircuitos_2024.git
-   cd repository
+   cd AOC_MatheusGarciaMatheusReboucas_UFRR_LabCircuitos_2024
    ```
 2. Abra os arquivos .circ no Logisim Evolution para simular os circuitos.
 3. Consulte os relatórios em `/docs` para uma descrição detalhada e análise dos testes realizados.
